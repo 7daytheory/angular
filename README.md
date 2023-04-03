@@ -6,6 +6,7 @@ Click next, until you have options on what you want to install(Feature Selection
 ## SQL Server Management Studio
 <strong>Just the user interface for working with SQL Server Studio</stong>
 Use the same installation as the SQL Server above and click "SQL Server Management Server" on the feature selection tab. Install this with all defaults.
+You can find it under Microsoft SQL Server Management Studio - use a . for localhost
 
 ## Visual Studio
 Run through installations with defaults, and eventually in the installer you can choose packages you want included(you can modify them later also). 
