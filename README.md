@@ -7,7 +7,13 @@ Click next, until you have options on what you want to install(Feature Selection
 <strong>Just the user interface for working with SQL Server Studio</stong>
 Use the same installation as the SQL Server above and click "SQL Server Management Server" on the feature selection tab. Install this with all defaults.
 
-### Other used programs that are also being used in this
+## Visual Studio
+Run through installations with defaults, and eventually in the installer you can choose packages you want included(you can modify them later also). 
+- ASP.NET web Development
+- Net Desktop Development
+- Net Core Development
+
+### Other programs being used - default settings
 - Postman
 - Visual Studio Code
 
