@@ -17,4 +17,26 @@ Run through installations with defaults, and eventually in the installer you can
 ### Other programs being used - default settings
 - Postman
 - Visual Studio Code
+- node
+- angular (npm install -g @angular/cli)
+
+### Setting up DB with SQL Server Management Studio\
+ - Click on the main SQL Server
+ - Click on "New Query" in the toolbar
+- You can execute queries here
+- ex: "Create Database dbName"
+
+### Examples of Creating and adding to the databse
+<code>
+create table dbo.Department (
+DepartmentID int identity(1,1),
+DepartmentName varchar(500)
+)
+
+select * from dbo.Department
+
+insert into dbo.Department values 
+('Support'),
+('IT')
+</code>
 
