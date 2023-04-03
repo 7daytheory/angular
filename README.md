@@ -20,13 +20,15 @@ Run through installations with defaults, and eventually in the installer you can
 - node
 - angular (npm install -g @angular/cli)
 
-### Setting up DB with SQL Server Management Studio\
+### Setting up DB with SQL Server Management Studio
  - Click on the main SQL Server
  - Click on "New Query" in the toolbar
 - You can execute queries here
 - ex: "Create Database dbName"
 
-### Examples of Creating and adding to the databse
+### Examples of Creating and adding to the database
+
+Creating Department Table
 <code>
 create table dbo.Department (
 DepartmentID int identity(1,1),
@@ -37,6 +39,27 @@ select * from dbo.Department
 
 insert into dbo.Department values 
 ('Support'),
-('IT')
+('IT'),
+('Developer')
 </code>
+
+Creating Employee Table
+<code>
+create table dbo.Employee (
+EmployeeID int identity(1,1),
+EmployeeName varchar(500),
+Department varchar(500),
+DateOfJoining date,
+PhotoFileName varchar(500),
+)
+
+insert into dbo.Employee values 
+	('Matt','Developer', '2020-01-01', 'photoMatt.jpg'),
+	('Glenn', 'Support', '2021-01-01', 'photoGlenn.jpg'),
+	('Michele', 'Support', '2019-01-01', 'photoMichele.jpg'),
+	('Erin', 'IT', '2017-01-01', 'photoErin.jpg')
+
+	select * from dbo.Employee
+</code>
+
 
